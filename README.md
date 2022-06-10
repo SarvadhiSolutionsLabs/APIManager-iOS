@@ -1,5 +1,5 @@
 # API Manager
-- Using this framework, Write less code and managed data for API request. 
+- Using this framework, Write less code and managed structured data for API request. 
 - We have created framework for API request. We can move framework into our project and use that framework.
 - You can find below: How can we use this framework?
 
