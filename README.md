@@ -21,8 +21,8 @@ let apiTarget = APITargetType.init(baseURL: URL(string: "YOUR_BASE_URL")!, path:
 ```
 - Use that API Target as request.
 ```
-APIManager.request(apiTarget, success: { (countryArrJSON) in
-    print(countryArrJSON)
+APIManager.request(apiTarget, success: { (JSON) in
+    print(JSON)
 }, error: { (errorStr) in
     debugPrint(errorStr)
 }, failure: { (error) in
